@@ -1,0 +1,21 @@
+body{
+    background-image: url("https://static7.depositphotos.com/1028979/728/i/450/depositphotos_7289235-stock-photo-creative-wooden-background-inside-a.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+.fila{
+    margin-left: 195px;
+}
+.imagen{
+    height: 247px;
+    height: 186px;
+}
+.boton{
+    width: 105%;
+    height: 90%;
+}
+.svg{
+    width:25px; 
+    height:25px;
+}

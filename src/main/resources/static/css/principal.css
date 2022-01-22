@@ -1,0 +1,23 @@
+body{
+   height: 100%;
+   background-repeat: no-repeat;
+    background: url("../img/fondoprincipal.jpg") no-repeat fixed center;
+    background-size: 100% 100%
+}
+.tipo {
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .let {
+   font-weight: bold;
+   color: #c99806;
+   font-style: ;
+}
+
+/* @media only screen and (max-width: 767px) {
+   body {
+     background-image: url(../img/fondoprincipal.jpg);
+   }
+ } */
+ 

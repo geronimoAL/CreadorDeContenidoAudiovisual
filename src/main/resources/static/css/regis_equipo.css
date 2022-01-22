@@ -1,0 +1,17 @@
+body{
+
+    background-image: url("https://earthlab-demo.tech-earth.net/wp-content/uploads/2018/07/pixta_39443674_M-1024x682.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+
+   
+}
+.alineacion{
+   display: flex;
+   justify-content:center;
+}
+.boton{
+   position: left;
+}

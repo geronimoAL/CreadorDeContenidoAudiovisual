@@ -1,0 +1,22 @@
+body{
+     
+    background-image: url("../img/lista_equipo\(2\).jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+}
+.imagen{
+    height:250px;
+    width: 360px;
+}
+.columna{
+margin-left: 50px;
+}
+.fila{
+   margin-left: 356px;
+}
+.al{
+ text-align: center; 
+ font-family: fantasy;
+}
