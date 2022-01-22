@@ -4,7 +4,7 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../static/css/regis_jugador.css"   >
+        <link rel="stylesheet" href="/css/regis_jugador.css"   >
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     </head>
     <body>
@@ -17,33 +17,33 @@
                     <div class="px-5 pt-5">
                         <div>
                     <label for="exampleInputEmail1" class="text-white">Nombre</label>
-                    <input type="text" name="nombre"class="form-control" >
+                    <input type="text" name="nombre border border-secondary"class="form-control" >
                         </div>
                         <div>
                     <label class="text-white">Apellido</label>
-                    <input type="text" name="apellido"class="form-control" >
+                    <input type="text" name="apellido"class="form-control border border-secondary" >
                         </div>
                     <div>
                     <label class="text-white">Equipo</label>
-                    <select class="form-control" name="equipo" >
+                    <select class="form-control border border-secondary" name="equipo" >
                     <option th:each="e : ${lista}" th:value="${e.id}" th:text="${e.nombre}" ></option>
                     </select>
                     </div>
                         <div>
                     <label for="exampleInputEmail1" class="text-white">Campeonatos</label>
-                    <input type="number" name="campeonatos"class="form-control" aria-describedby="emailHelp">
+                    <input type="number" name="campeonatos"class="form-control border border-secondary" aria-describedby="emailHelp">
                         </div>
                         <div>
                     <label for="exampleInputEmail1" class="text-white">Foto</label>
-                    <input type="file" name="archivo"class="col-7 form-control" >
+                    <input type="file" name="archivo"class="col-7 form-control border border-secondary" >
                         </div>
                           <div>
                     <label class="text-white">Mejores jugadas</label>
-                    <input type="text" name="video"class="form-control" >
+                    <input type="text" name="video"class="form-control border border-secondary" placeholder="Ingresa el link" >
                         </div>
                         <div>
                     <label class="text-white">Descripcion</label>
-                    <textarea type="text" name="nota" class="form-control" rows="3"></textarea>
+                    <textarea type="text" name="nota" class="form-control" rows="3" placeholder="Debe no ser más de 3 lineas"></textarea>
                         </div>
                         
                     <button type="submit" class="btn btn-primary mt-4">GUARDAR</button>
