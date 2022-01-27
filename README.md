@@ -3,6 +3,7 @@ deportista se ingresará por ejemplo nombre, campeonatos, link de youtube de mej
 foto, etc. Además se lo podra vincular al equipo que este en la base de datos. Asi cuando 
 se presione a un equipo determinado se mostrará los jugadores que pertenecen a él.
 Tecnologías y software utilizado:
+
 -Java version 1.8.0_111
 
 -IDE NetBeans 8.0 CE
