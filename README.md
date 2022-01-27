@@ -8,6 +8,8 @@ Tecnologías y software utilizado:
 
 -IDE NetBeans 8.0 CE
 
+-Spring Boot
+
 -MySQL Workbench v8.0.26.0
 
 -Bootstrap 4
