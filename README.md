@@ -1,18 +1,19 @@
-Es una aplicacion web para la carga y modificación de equipos y jugadores. Cuando se cree el 
-deportista se ingresará por ejemplo nombre, campeonatos, link de youtube de mejores jugadas,
-foto, etc. Además se lo podra vincular al equipo que este en la base de datos. Asi cuando 
+# Aplicacion web para carga y modificación de equipos/jugadores. 
+Cuando se cree el deportista se ingresará por ejemplo nombre, campeonatos, link de youtube de mejores jugadas,
+foto, etc. Además se lo podrá vincular al equipo que este en la base de datos. Asi cuando 
 se presione a un equipo determinado se mostrará los jugadores que pertenecen a él.
-Tecnologías y software utilizado:
+<hr>
+Tecnologías y software utilizado: <br><br>
 
--Java version 1.8.0_111
+*Java version 1.8.0_111
 
--IDE NetBeans 8.0 CE
+*IDE NetBeans 8.0 CE
 
--Spring Boot
+*Spring Framework
 
--MySQL Workbench v8.0.26.0
+*MySQL Workbench v8.0.26.0
 
--Bootstrap 4
+*Bootstrap 4
 
--Visual Studio Code 1.63.2
+*Visual Studio Code 1.63.2
 
